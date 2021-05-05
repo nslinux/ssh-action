@@ -17,5 +17,5 @@ jobs:
           host: ${{ secrets.HOST }}
           user: ubuntu
           key: ${{ secrets.PRIVATE_KEY}}
-#          pass: ${{ secrets.PASS }}
+         pass: ${{ secrets.PASS }}
           args: "-tt -vvv"
