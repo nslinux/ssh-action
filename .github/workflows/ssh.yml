@@ -16,6 +16,6 @@ jobs:
             echo "env_var:$FIRST_NAME"
           host: ${{ secrets.HOST }}
           user: ubuntu
-          #key: ${{ secrets.PRIVATE_KEY}}
-         pass: ${{ secrets.PASS }}
+         key: ${{ secrets.PRIVATE_KEY}}
+          #pass: ${{ secrets.PASS }}
           args: "-tt -vvv"
